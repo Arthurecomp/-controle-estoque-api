@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: controle-estoque-api
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/estoque
+    username: postgres
+    password: admin123
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+api:
+  security:
+    token:
+      secret: ${JWT_SECRET:my-secret-key}
