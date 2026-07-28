@@ -14,13 +14,21 @@ spring:
     show-sql: false
 
   rabbitmq:
-    host: localhost
-    port: 5672
+    listener:
+      simple:
+        auto-startup: false
 
   data:
     redis:
       host: localhost
       port: 6379
+
+
+api:
+  security:
+    token:
+      secret: teste-secret-key-123456
+
 
 logging:
   level:
