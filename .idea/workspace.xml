@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ce238dd-3470-4dc1-b0d5-2ee70c09c5e6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/controle-estoque-api/.github/workflows/ci.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HttpClientOnboardingState">{
+  &quot;isOnboardingCommentShown&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.5625292423444053" />
+      <entry key="MS500" value="1.8924624576345388" />
+      <entry key="S2" value="2.354429011422751" />
+      <entry key="S5" value="3.295476590493152" />
+      <entry key="S10" value="3.971994772538433" />
+      <entry key="S30" value="4.608382882108625" />
+      <entry key="S60" value="4.797353672772664" />
+      <entry key="M2" value="4.90442846212961" />
+      <entry key="M5" value="5.186695393756316" />
+      <entry key="M10" value="6.15947713808697" />
+      <entry key="M15" value="7.73190061964446" />
+      <entry key="M30" value="12.967258241797271" />
+      <entry key="H1" value="20.95623121367962" />
+      <entry key="H2" value="34.486190617541006" />
+      <entry key="H4" value="71.70873780270124" />
+      <entry key="D1" value="372.0367537116359" />
+      <entry key="W1" value="560.5596860096391" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.4692350653575538E-13" />
+      <entry key="MS500" value="0.00271280299954123" />
+      <entry key="S2" value="0.2282204536132797" />
+      <entry key="S5" value="0.5537858129886275" />
+      <entry key="S10" value="0.7441678661354759" />
+      <entry key="S30" value="0.9061991233713859" />
+      <entry key="S60" value="0.9519596725962172" />
+      <entry key="M2" value="0.979518137611457" />
+      <entry key="M5" value="1.1017335697368076" />
+      <entry key="M10" value="1.4605997664790453" />
+      <entry key="M15" value="1.9661801340361509" />
+      <entry key="M30" value="3.671229912980536" />
+      <entry key="H1" value="6.7157245950893225" />
+      <entry key="H2" value="16.329137112461595" />
+      <entry key="H4" value="61.098179946902896" />
+      <entry key="D1" value="507.8427966591857" />
+      <entry key="W1" value="791.7570697989462" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.4988782375774832" />
+      <entry key="MS500" value="1.8781237325568447" />
+      <entry key="S2" value="2.540329861059669" />
+      <entry key="S5" value="3.8081025408487394" />
+      <entry key="S10" value="4.688200473310283" />
+      <entry key="S30" value="5.503125592730847" />
+      <entry key="S60" value="5.743280562224229" />
+      <entry key="M2" value="5.8808381932474205" />
+      <entry key="M5" value="6.287009292276078" />
+      <entry key="M10" value="7.618868317129353" />
+      <entry key="M15" value="9.696576901593257" />
+      <entry key="M30" value="16.63627717925754" />
+      <entry key="H1" value="27.669290355712704" />
+      <entry key="H2" value="50.81143276896144" />
+      <entry key="H4" value="132.79891982034727" />
+      <entry key="D1" value="879.8680577881215" />
+      <entry key="W1" value="1352.3141923740986" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3GuFSp8cfMTIDUPgBhPXN69gIVi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.MovimentacaoServiceTest.deveAumentarEstoqueQuandoForEntrada.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MovimentacaoServiceTest.deveBloquearProdutoDeOutraLoja.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MovimentacaoServiceTest.deveEnviarEventoQuandoEstoqueFicarBaixo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MovimentacaoServiceTest.deveLancarErroQuandoProdutoNaoExiste.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MovimentacaoServiceTest.deveRealizarEntradaDeProduto.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MovimentacaoServiceTest.deveRealizarSaidaDeProduto.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MovimentacaoServiceTest.naoDevePermitirSaidaMaiorQueEstoque.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;New/updated database configurations found&quot;,
+    &quot;Notification.DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ControleEstoqueApiApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/artma/OneDrive/Desktop/controle-estoque-api (1)&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.arthur.controle_estoque_api.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.arthur.controle_estoque_api.dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MovimentacaoServiceTest.deveLancarErroQuandoProdutoNaoExiste">
+    <configuration name="MovimentacaoServiceTest.deveBloquearProdutoDeOutraLoja" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="controle-estoque-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arthur.controle_estoque_api.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.arthur.controle_estoque_api.service" />
+      <option name="MAIN_CLASS_NAME" value="com.arthur.controle_estoque_api.service.MovimentacaoServiceTest" />
+      <option name="METHOD_NAME" value="deveBloquearProdutoDeOutraLoja" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovimentacaoServiceTest.deveLancarErroQuandoProdutoNaoExiste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="controle-estoque-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arthur.controle_estoque_api.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.arthur.controle_estoque_api.service" />
+      <option name="MAIN_CLASS_NAME" value="com.arthur.controle_estoque_api.service.MovimentacaoServiceTest" />
+      <option name="METHOD_NAME" value="deveLancarErroQuandoProdutoNaoExiste" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovimentacaoServiceTest.deveRealizarEntradaDeProduto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="controle-estoque-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arthur.controle_estoque_api.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.arthur.controle_estoque_api.service" />
+      <option name="MAIN_CLASS_NAME" value="com.arthur.controle_estoque_api.service.MovimentacaoServiceTest" />
+      <option name="METHOD_NAME" value="deveRealizarEntradaDeProduto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovimentacaoServiceTest.deveRealizarSaidaDeProduto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="controle-estoque-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arthur.controle_estoque_api.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.arthur.controle_estoque_api.service" />
+      <option name="MAIN_CLASS_NAME" value="com.arthur.controle_estoque_api.service.MovimentacaoServiceTest" />
+      <option name="METHOD_NAME" value="deveRealizarSaidaDeProduto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovimentacaoServiceTest.naoDevePermitirSaidaMaiorQueEstoque" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="controle-estoque-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arthur.controle_estoque_api.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.arthur.controle_estoque_api.service" />
+      <option name="MAIN_CLASS_NAME" value="com.arthur.controle_estoque_api.service.MovimentacaoServiceTest" />
+      <option name="METHOD_NAME" value="naoDevePermitirSaidaMaiorQueEstoque" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControleEstoqueApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="controle-estoque-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.arthur.controle_estoque_api.ControleEstoqueApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MovimentacaoServiceTest.deveLancarErroQuandoProdutoNaoExiste" />
+        <item itemvalue="JUnit.MovimentacaoServiceTest.deveRealizarEntradaDeProduto" />
+        <item itemvalue="JUnit.MovimentacaoServiceTest.deveRealizarSaidaDeProduto" />
+        <item itemvalue="JUnit.MovimentacaoServiceTest.naoDevePermitirSaidaMaiorQueEstoque" />
+        <item itemvalue="JUnit.MovimentacaoServiceTest.deveBloquearProdutoDeOutraLoja" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.258" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.258" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ce238dd-3470-4dc1-b0d5-2ee70c09c5e6" name="Changes" comment="" />
+      <created>1784813550713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1784813550713</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
