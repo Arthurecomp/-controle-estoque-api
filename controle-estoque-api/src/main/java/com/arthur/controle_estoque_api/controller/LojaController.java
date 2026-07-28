@@ -50,6 +50,7 @@ public class LojaController {
         return ResponseEntity.ok(lojaResponseDTO);
     }
 
+    /*
     @GetMapping
     public ResponseEntity<List<LojaResponseDTO>> buscarTodos() {
 
@@ -68,7 +69,7 @@ public class LojaController {
 
         return ResponseEntity.ok(resposta);
     }
-
+*/
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> delete(@PathVariable Long id){
         lojaService.deletarLoja(id);

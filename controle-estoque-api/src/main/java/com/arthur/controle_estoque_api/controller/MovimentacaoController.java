@@ -14,6 +14,7 @@ import com.arthur.controle_estoque_api.service.UsuarioService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -36,12 +37,12 @@ public class MovimentacaoController {
     }
 
     @PostMapping
-    public ResponseEntity<MovimentacaoResponseDTO> criar(@RequestBody MovimentacaoRequestDTO movimentacaoRequestDTO){
+    public ResponseEntity<MovimentacaoResponseDTO> criar(@RequestBody MovimentacaoRequestDTO movimentacaoRequestDTO, @AuthenticationPrincipal Usuario usuario) throws InterruptedException {
         Movimentacao movimentacao = new Movimentacao();
         movimentacao.setTipo(movimentacaoRequestDTO.getTipo());
         movimentacao.setQuantidade(movimentacaoRequestDTO.getQuantidade());
-        Usuario usuario = usuarioService.buscarPorId(movimentacaoRequestDTO.getUsuarioId());
-        Produto produto = produtoService.buscarPorId(movimentacaoRequestDTO.getProdutoId());
+        Produto produto = new Produto();
+        produto.setId(movimentacaoRequestDTO.getProdutoId());
 
         movimentacao.setProduto(produto);
         movimentacao.setUsuario(usuario);
@@ -53,7 +54,9 @@ public class MovimentacaoController {
         return  ResponseEntity.status(HttpStatus.CREATED).body(movimentacaoResponseDTO);
 
 
-    }@GetMapping
+    }
+
+    @GetMapping
     public ResponseEntity<List<MovimentacaoResponseDTO>> buscarTodas(){
 
         List<Movimentacao> movimentacoes = movimentacaoService.buscarTodas();

@@ -9,7 +9,7 @@ public class MovimentacaoRequestDTO {
     private TipoMovimentacao tipo;
     private Integer quantidade;
     private Long produtoId;
-    private Long usuarioId;
+    //private Long usuarioId;
 
     public TipoMovimentacao getTipo() {
         return tipo;
@@ -35,11 +35,11 @@ public class MovimentacaoRequestDTO {
         this.produtoId = produtoId;
     }
 
-    public Long getUsuarioId() {
-        return usuarioId;
-    }
+    //public Long getUsuarioId() {
+    //    return usuarioId;
+    //}
 
-    public void setUsuarioId(Long usuarioId) {
-        this.usuarioId = usuarioId;
-    }
+    //public void setUsuarioId(Long usuarioId) {
+//this.usuarioId = usuarioId;
+    //}
 }

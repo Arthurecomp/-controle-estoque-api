@@ -38,13 +38,19 @@ public class SecurityConfig {
                         "/swagger-ui.html").permitAll()
 
                         .requestMatchers(("/usuario/**"))
-                        .permitAll()//tem que tirar
+                        //.permitAll()//tem que tirar
+                        .hasRole("ADMIN")
 
                         .requestMatchers("/produto/**")
                         .hasRole("ADMIN")
 
+                        .requestMatchers("/loja/**")
+                        .hasAnyRole("ADMIN")
+
+
                         .requestMatchers("/movimentacao/**")
                         .hasAnyRole("ADMIN", "ESTOQUISTA")
+
 
                         .anyRequest()
                         .authenticated()

@@ -1,9 +1,11 @@
 package com.arthur.controle_estoque_api.service;
 
 import com.arthur.controle_estoque_api.entity.Loja;
+import com.arthur.controle_estoque_api.entity.Usuario;
 import com.arthur.controle_estoque_api.exception.BadRequestException;
 import com.arthur.controle_estoque_api.exception.ResourceNotFoundException;
 import com.arthur.controle_estoque_api.repository.LojaRepository;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
@@ -29,12 +31,6 @@ public class LojaService {
         return lojaRepository.save(loja);
     }
 
-
-    public List<Loja> buscarTodas() {
-        return lojaRepository.findAll();
-    }
-
-
     public Loja buscarPorId(Long id) {
 
         return lojaRepository.findById(id)
@@ -46,6 +42,8 @@ public class LojaService {
     public Loja atualizarLoja(Long id, Loja lojaAtualizada) {
 
         Loja loja = buscarPorId(id);
+
+        validarAcessoALoja(id);
 
         if (lojaAtualizada.getNome() != null) {
             loja.setNome(lojaAtualizada.getNome());
@@ -59,6 +57,22 @@ public class LojaService {
 
         Loja loja = buscarPorId(id);
 
+        validarAcessoALoja(id);
+
         lojaRepository.delete(loja);
+    }
+
+    private void validarAcessoALoja(Long lojaIdAlvo) {
+
+        Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+
+        if (principal instanceof Usuario usuarioLogado) {
+
+            if (usuarioLogado.getLoja() == null || !usuarioLogado.getLoja().getId().equals(lojaIdAlvo)) {
+                throw new BadRequestException("Operação negada: Você só pode gerenciar a sua própria loja.");
+            }
+        } else {
+            throw new BadRequestException("Usuário não autenticado ou inválido.");
+        }
     }
 }
