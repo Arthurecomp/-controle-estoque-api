@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ce238dd-3470-4dc1-b0d5-2ee70c09c5e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/controle-estoque-api/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +145,9 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\artma\OneDrive\Desktop\controle-estoque-api (1)" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.arthur.controle_estoque_api.service" />

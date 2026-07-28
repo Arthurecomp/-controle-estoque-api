@@ -9,18 +9,19 @@ on:
     branches:
       - main
 
-
 jobs:
-
   build:
 
     runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: controle-estoque-api
 
     steps:
 
       - name: Checkout código
         uses: actions/checkout@v4
-
 
       - name: Configurar Java 21
         uses: actions/setup-java@v4
@@ -28,10 +29,8 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
 
-
       - name: Rodar testes
         run: ./mvnw test
-
 
       - name: Gerar build
         run: ./mvnw clean package
