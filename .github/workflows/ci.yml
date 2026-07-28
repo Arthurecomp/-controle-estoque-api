@@ -20,6 +20,11 @@ jobs:
           POSTGRES_PASSWORD: admin123
         ports:
           - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
 
       rabbitmq:
         image: rabbitmq:3-management
@@ -28,11 +33,22 @@ jobs:
           RABBITMQ_DEFAULT_PASS: admin123
         ports:
           - 5672:5672
+          - 15672:15672
+        options: >-
+          --health-cmd "rabbitmq-diagnostics -q ping"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
 
       redis:
         image: redis:7-alpine
         ports:
           - 6379:6379
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
 
 
     steps:
@@ -48,5 +64,6 @@ jobs:
           distribution: 'temurin'
 
 
-      - name: Test
-        run: ./mvnw test
+      - name: Run Tests
+        working-directory: controle-estoque-api
+        run: mvn test
